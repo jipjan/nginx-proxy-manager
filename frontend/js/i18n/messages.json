@@ -121,6 +121,18 @@
       "ignore-invalid-upstream-ssl": "Ignore Invalid SSL",
       "custom-forward-host-help": "Use 1.1.1.1/path for sub-folder forwarding"
     },
+    "static-hosts": {
+      "title": "Static Hosts",
+      "empty": "There are no Static Hosts",
+      "add": "Add Static Host",
+      "form-title": "{id, select, undefined{New} other{Edit}} Static Host",
+      "forward-domain": "Forward Domain",
+      "preserve-path": "Preserve Path",
+      "delete": "Delete Proxy Host",
+      "delete-confirm": "Are you sure you want to delete the Static host for: <strong>{domains}</strong>?",
+      "help-title": "What is a Static Host?",
+      "help-content": "A Static Host will display static content from a folder.\nThe most common reason to use this type of host is to display static content in the form of html/css/javascript files."
+    },
     "redirection-hosts": {
       "title": "Redirection Hosts",
       "empty": "There are no Redirection Hosts",
